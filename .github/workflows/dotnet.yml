@@ -31,6 +31,6 @@ jobs:
       with:
         name: bin
         path: |
-          AltVTools/src/ServerFileDownloader/bin/Release/net8.0/linux-x64/publish/
-          AltVTools/src/ServerFileDownloader/bin/Release/net8.0/win-x64/publish/
+          src/ServerFileDownloader/bin/Release/net8.0/linux-x64/publish/
+          src/ServerFileDownloader/bin/Release/net8.0/win-x64/publish/
           
