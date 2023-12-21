@@ -4,9 +4,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C7CF29BF-624
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2A2AD132-7BBA-4130-9B4E-19F6055FCBE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerFileDownloader", "src\ServerFileDownloader\ServerFileDownloader.csproj", "{BDD0D59C-B1B0-4B6B-9536-49BAB29B700A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDD0D59C-B1B0-4B6B-9536-49BAB29B700A} = {C7CF29BF-6241-4C35-9E0F-E6C425857484}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDD0D59C-B1B0-4B6B-9536-49BAB29B700A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD0D59C-B1B0-4B6B-9536-49BAB29B700A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD0D59C-B1B0-4B6B-9536-49BAB29B700A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD0D59C-B1B0-4B6B-9536-49BAB29B700A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
