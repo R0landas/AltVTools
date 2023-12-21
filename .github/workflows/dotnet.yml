@@ -26,3 +26,11 @@ jobs:
       run: dotnet publish -c Release -r linux-x64 --self-contained true
     - name: publish Windows
       run: dotnet publish -c Release -r win-x64 --self-contained true
+    - name: upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: bin
+        path: |
+          AltVTools/src/ServerFileDownloader/bin/Release/net8.0/linux-x64/publish/
+          AltVTools/src/ServerFileDownloader/bin/Release/net8.0/win-x64/publish/
+          
